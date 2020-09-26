@@ -2,7 +2,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 .navbar {
-    background-color: lightblue;
+    background-color: #e74c3c;
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -26,7 +26,7 @@ html {
     font-weight: bold;
 }
 .text {
-    color: lightblue;
+    color: #e74c3c;
 }
 .subheading, .lead {
     font-size: 18px;
@@ -35,7 +35,7 @@ html {
     margin-top: 10px;
 }
 h2 {
-    background-color: lightblue;
+    background-color: #e74c3c;
     color: white;
     border-radius: 5px;
     border: black 1px solid;
@@ -65,14 +65,14 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    background-color: lightblue;
+    background-color: #e74c3c;
     padding: 18px 50px;
     border-radius: 3px;
     transition: all 0.3s ease-in 0s;
 
 }
 .button1:hover {
-    color: lightblue;
+    color: #e74c3c;
     background-color: white;
     text-decoration: none;
 }
