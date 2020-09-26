@@ -1,0 +1,78 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: lightblue;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.navbar li {
+    padding-left: 20px;
+}
+#navbarSupportedContent {
+    transition: height 1.5s ease;
+}
+.resume-section-content {
+    position: relative;
+    padding-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.resume-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.text {
+    color: lightblue;
+}
+.subheading, .lead {
+    font-size: 18px;
+}
+.subheading {
+    margin-top: 10px;
+}
+h2 {
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    border: black 1px solid;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.comp {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+.comp:hover {
+    filter: grayscale(0);
+}
+
+.loisirs {
+    height: 150px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: lightblue;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+
+}
+.button1:hover {
+    color: lightblue;
+    background-color: white;
+    text-decoration: none;
+}
