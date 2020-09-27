@@ -9,6 +9,17 @@ html {
     font-weight: bold;
     border-bottom: 1px solid black;
 }
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.2s;
+}
+.nav-item:hover::after {
+    width: 100%;
+}
 .navbar li {
     padding-left: 20px;
 }
@@ -44,7 +55,7 @@ h2 {
 }
 .comp {
     height: 80px;
-    margin-left: 20px;
+    margin-left: 100px;
     margin-top: 20px;
     filter: grayscale(100%);
     transition: .3s ease-in-out;
@@ -55,6 +66,8 @@ h2 {
 
 .loisirs {
     height: 150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
 }
 .center {
     display: flex;
@@ -75,4 +88,5 @@ h2 {
     color: #e74c3c;
     background-color: white;
     text-decoration: none;
+    border: 1px solid #e74c3c;
 }
